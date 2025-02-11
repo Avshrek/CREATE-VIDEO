@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Teaching Platform</title>
+  <link rel="stylesheet" href="input.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Video Teaching Platform</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Upload a Video</h2>
+      <input type="text" placeholder="Video Title">
+      <input type="file" accept="video/*">
+      <button>Upload Video</button>
+    </section>
+
+    <section>
+      <h2>Video Gallery</h2>
+      <div>
+        <video controls>
+          <source src="sample-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Sample Video</h3>
+        <p>Uploaded by Teacher</p>
+
+        <div>
+          <h4>Write a Review</h4>
+          <textarea placeholder="Write your review..."></textarea>
+          <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+          </div>
+          <button>Submit Review</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
